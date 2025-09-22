@@ -18,7 +18,7 @@ import { generateConceptExplanation, generateInterviewQuestions } from './Contro
 const app=express();
 
 app.use(cors({
-    origin:"praveen-prep-ai-ivory.vercel.app",
+    origin:"https://praveen-prep-ai-ivory.vercel.app",
     methods:["GET","POST","PUT","DELETE"],
     allowedHeaders: ["Content-type","Authorization"],
 }));
